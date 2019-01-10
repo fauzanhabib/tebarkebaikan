@@ -1,5 +1,5 @@
 	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
+	<html>
 	<head>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -80,18 +80,12 @@
 						<div class="row">
 							<div class="col-lg-8 col-md-8">
 								<h3 class="mb-30">Form Donasi</h3>
-								<form action="#">
+								<form action="" method="POST" id="foo">
 									<div class="mt-10">
-										<input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required class="single-input">
+										<input type="text" name="name" id="name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'"  class="single-input">
 									</div>
 									<div class="mt-10">
-										<input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required class="single-input">
-									</div>
-									<div class="mt-10">
-										<input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required class="single-input">
-									</div>
-									<div class="mt-10">
-										<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required class="single-input">
+										<input type="email" name="email" id="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required class="single-input">
 									</div>
 									<div class="input-group-icon mt-10">
 										<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
@@ -99,10 +93,14 @@
 									</div>
 									<div class="button-group-area">
 										
-										<button type="submit" class="genric-btn primary">Donasi</a>
+										<button type="submit" class="genric-btn primary" name="donasi" id="donasi">Donasi</a>
 
 									</div>
 								</form>
+								
+							</div>
+							<div id="action_alert" title="Action">
+			
 							</div>
 							<div class="col-lg-3 col-md-4 mt-sm-30 element-wrap">
 								
@@ -164,7 +162,7 @@
                 </footer>
             <!-- End footer Area -->		
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="js/popper.min.js"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
@@ -176,11 +174,12 @@
     		<script src="js/jquery.tabs.min.js"></script>						
 			<script src="js/jquery.nice-select.min.js"></script>	
             <script src="js/isotope.pkgd.min.js"></script>			
-			<script src="js/waypoints.min.js"></script>
+		
 			<script src="js/jquery.counterup.min.js"></script>
 			<script src="js/simple-skillbar.js"></script>							
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+			<script src="main.js"></script>	
 		</body>
 	</html>
