@@ -57,4 +57,56 @@ $(document).ready(function(){
 
     });
 
+
+});
+
+$(document).ready(function(){  
+    $('#regisfoo').on('submit', function(event){
+        event.preventDefault();
+  
+        $('#registebar').attr('disabled', 'disabled');
+        var form_data = $(this).serialize();
+        $.ajax({
+            url:"http://localhost/Amal_mukena/api_mukena/public/users",
+            method:"POST",
+            data:form_data,
+            success:function(data)
+            {
+                if(data.success == true){ // if true (1)
+                    setTimeout(function(){// wait for 5 secs(2)
+                        alert("data berhasil di Register");
+                        location.reload(); // then reload the page.(3)
+                    }, 1000); 
+                }
+            }
+        });
+    });
+
+});
+
+
+//login
+
+$(document).ready(function() {
+
+    
+    $('#loginfoo').on('submit', function(event){
+        event.preventDefault();
+  
+        $('#registebar').attr('disabled', 'disabled');
+        var form_data = $(this).serialize();
+        $.ajax({
+            url:"http://localhost/Amal_mukena/api_mukena/public/users/login",
+            method:"POST",
+            data:form_data,
+            success:function(data)
+            {
+                if(data.success == true){ // if true (1)
+                    window.location.replace('index.php');
+                }else{
+                    alert("login false");
+                }
+            }
+        });
+    });
 });
