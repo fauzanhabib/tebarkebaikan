@@ -40,7 +40,7 @@
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
 			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html"></a></li>
+			          <li><a href="logintebar.html">Login</a></li>
 			          <li><a href="services.html"></a></li>
 			          <li><a href="portfolio.html"></a></li>
 			          <li><a href="price.html"></a></li>
@@ -83,8 +83,8 @@
 						</div>
 						<div class="col-lg-4 col-md-6 single-price">
 							<div class="top-part">
-								<h1 class="package-no">02</h1>
-
+								
+								<img class="img-fluid package-no" src="img/makanan.jpg" alt="">
 								<h4>Tebar Makanan</h4>
 								<p class="mt-10">For the individuals</p>
 							</div>
@@ -170,6 +170,52 @@
 							</div>
 							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
 								<div>
+									<img class="img-fluid" src="img/" alt="">
+									<a href="#"><span>admin</span></a>
+								</div>
+								<div class="meta">
+									13th Dec
+									<span class="lnr lnr-heart"></span> 15
+									<span class="lnr lnr-bubble"></span> 04
+								</div>
+							</div>							
+							<a href="#">
+								<h4>Mbah Nemi (Penerima Manfaat)</h4>
+							</a>
+							<p>
+								Namanya Mbah Nemi, Dia tinggal sendirian di rumah kecil di daerah kalibata. Mbah nemi terlihat sangat senang
+								dan terharu saat team tebar mukena memberikan mukena baru untuknya. Kata mbah nemi ia hanya memiliki satu mukena.
+
+							</p>
+						</div>
+						<div class="single-recent-blog col-lg-4 col-md-4">
+							<div class="thumb">
+								<img class="f-img img-fluid mx-auto" src="img/tanahabang.jpeg" alt="">	
+							</div>
+							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+								<div>
+									<img class="img-fluid" src="img/user.png" alt="">
+									<a href="#"><span>Mark Wiens</span></a>
+								</div>
+								<div class="meta">
+									13th Dec
+									<span class="lnr lnr-heart"></span> 15
+									<span class="lnr lnr-bubble"></span> 04
+								</div>
+							</div>							
+							<a href="#">
+								<h4>Mushola Statiun Tanah Abang</h4>
+							</a>
+							<p>
+								You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
+							</p>
+						</div>
+						<div class="single-recent-blog col-lg-4 col-md-4">
+							<div class="thumb">
+								<img class="f-img img-fluid mx-auto" src="img/banten.jpeg" alt="">	
+							</div>
+							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+								<div>
 									<img class="img-fluid" src="img/user.png" alt="">
 									<a href="#"><span>admin</span></a>
 								</div>
@@ -180,54 +226,7 @@
 								</div>
 							</div>							
 							<a href="#">
-								<h4>Break Through Self Doubt
-								And Fear</h4>
-							</a>
-							<p>
-								Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.
-							</p>
-						</div>
-						<div class="single-recent-blog col-lg-4 col-md-4">
-							<div class="thumb">
-								<img class="f-img img-fluid mx-auto" src="img/b2.jpg" alt="">	
-							</div>
-							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-								<div>
-									<img class="img-fluid" src="img/user.png" alt="">
-									<a href="#"><span>Mark Wiens</span></a>
-								</div>
-								<div class="meta">
-									13th Dec
-									<span class="lnr lnr-heart"></span> 15
-									<span class="lnr lnr-bubble"></span> 04
-								</div>
-							</div>							
-							<a href="#">
-								<h4>Portable Fashion for
-								young women</h4>
-							</a>
-							<p>
-								You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
-							</p>
-						</div>
-						<div class="single-recent-blog col-lg-4 col-md-4">
-							<div class="thumb">
-								<img class="f-img img-fluid mx-auto" src="img/b3.jpg" alt="">	
-							</div>
-							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-								<div>
-									<img class="img-fluid" src="img/user.png" alt="">
-									<a href="#"><span>Mark Wiens</span></a>
-								</div>
-								<div class="meta">
-									13th Dec
-									<span class="lnr lnr-heart"></span> 15
-									<span class="lnr lnr-bubble"></span> 04
-								</div>
-							</div>							
-							<a href="#">
-								<h4>Do Dreams Serve As
-								A Premonition</h4>
+								<h4>Banten</h4>
 							</a>
 							<p>
 								So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.
